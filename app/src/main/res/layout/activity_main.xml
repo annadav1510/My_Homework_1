@@ -25,6 +25,28 @@
         android:textStyle="bold"
         android:layout_margin="20dp" />
 
-    
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="yes/no"
+        android:textColor="#faa"
+        android:layout_margin="15dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="OK"
+        android:textColor="#7855"
+        android:layout_marginLeft="30dp"
+        android:layerType="hardware" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_gravity="right"
+        android:textSize="30dp" />
 
 </LinearLayout >
